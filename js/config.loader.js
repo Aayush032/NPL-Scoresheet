@@ -7,9 +7,9 @@
  * 3. Supports live overrides stored in browser localStorage.
  */
 
-import { CONFIG as exampleConfig } from './config.example.js';
+import { CONFIG as config } from './config.js';
 
-let activeConfig = { ...exampleConfig };
+let activeConfig = { ...config };
 
 try {
   // Attempt to load private config.js
@@ -48,3 +48,4 @@ try {
 }
 
 export const CONFIG = activeConfig;
+
