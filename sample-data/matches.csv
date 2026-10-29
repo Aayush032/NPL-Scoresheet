@@ -1,0 +1,33 @@
+match_no,date,team1,team2,team1_score,team2_score,winner,result_note,status
+1,2026-10-26,Lumbini Lions,Sudurpaschim Royals,152/8 (20.0),156/6 (19.1),Sudurpaschim Royals,Sudurpaschim Royals won by 4 wickets,Completed
+2,2026-10-27,Biratnagar Kings,Chitwan Rhinos,142/9 (20.0),143/4 (18.2),Chitwan Rhinos,Chitwan Rhinos won by 6 wickets,Completed
+3,2026-10-27,Karnali Yaks,Janakpur Bolts,150/9 (20.0),178/5 (20.0),Janakpur Bolts,Janakpur Bolts won by 28 runs,Completed
+4,2026-10-28,Pokhara Avengers,Sudurpaschim Royals,165/6 (20.0),150/8 (20.0),Pokhara Avengers,Pokhara Avengers won by 15 runs,Completed
+5,2026-10-29,Janakpur Bolts,Kathmandu Gurkhas,,,,Scheduled for 12:30 PM NPT,Scheduled
+6,2026-10-29,Karnali Yaks,Biratnagar Kings,,,,Scheduled for 5:00 PM NPT,Scheduled
+7,2026-10-31,Lumbini Lions,Chitwan Rhinos,,,,Scheduled for 12:30 PM NPT,Scheduled
+8,2026-10-31,Sudurpaschim Royals,Biratnagar Kings,,,,Scheduled for 5:00 PM NPT,Scheduled
+9,2026-11-01,Janakpur Bolts,Pokhara Avengers,,,,Scheduled for 5:00 PM NPT,Scheduled
+10,2026-11-02,Kathmandu Gurkhas,Karnali Yaks,,,,Scheduled for 12:30 PM NPT,Scheduled
+11,2026-11-02,Sudurpaschim Royals,Chitwan Rhinos,,,,Scheduled for 5:00 PM NPT,Scheduled
+12,2026-11-03,Biratnagar Kings,Janakpur Bolts,,,,Scheduled for 12:30 PM NPT,Scheduled
+13,2026-11-03,Lumbini Lions,Pokhara Avengers,,,,Scheduled for 5:00 PM NPT,Scheduled
+14,2026-11-05,Lumbini Lions,Janakpur Bolts,,,,Scheduled for 12:30 PM NPT,Scheduled
+15,2026-11-05,Kathmandu Gurkhas,Biratnagar Kings,,,,Scheduled for 5:00 PM NPT,Scheduled
+16,2026-11-06,Sudurpaschim Royals,Karnali Yaks,,,,Scheduled for 12:30 PM NPT,Scheduled
+17,2026-11-06,Chitwan Rhinos,Pokhara Avengers,,,,Scheduled for 5:00 PM NPT,Scheduled
+18,2026-11-07,Kathmandu Gurkhas,Lumbini Lions,,,,Scheduled for 5:00 PM NPT,Scheduled
+19,2026-11-09,Pokhara Avengers,Karnali Yaks,,,,Scheduled for 12:30 PM NPT,Scheduled
+20,2026-11-09,Chitwan Rhinos,Kathmandu Gurkhas,,,,Scheduled for 5:00 PM NPT,Scheduled
+21,2026-11-10,Sudurpaschim Royals,Janakpur Bolts,,,,Scheduled for 5:00 PM NPT,Scheduled
+22,2026-11-12,Biratnagar Kings,Pokhara Avengers,,,,Scheduled for 12:30 PM NPT,Scheduled
+23,2026-11-12,Karnali Yaks,Lumbini Lions,,,,Scheduled for 5:00 PM NPT,Scheduled
+24,2026-11-13,Kathmandu Gurkhas,Sudurpaschim Royals,,,,Scheduled for 12:30 PM NPT,Scheduled
+25,2026-11-13,Janakpur Bolts,Chitwan Rhinos,,,,Scheduled for 5:00 PM NPT,Scheduled
+26,2026-11-14,Biratnagar Kings,Lumbini Lions,,,,Scheduled for 5:00 PM NPT,Scheduled
+27,2026-11-15,Chitwan Rhinos,Karnali Yaks,,,,Scheduled for 12:30 PM NPT,Scheduled
+28,2026-11-15,Pokhara Avengers,Kathmandu Gurkhas,,,,Scheduled for 5:00 PM NPT,Scheduled
+29,2026-11-17,Qualifier 1 (1st Place),Qualifier 1 (2nd Place),,,,Scheduled for 5:00 PM NPT,Scheduled
+30,2026-11-18,Eliminator (3rd Place),Eliminator (4th Place),,,,Scheduled for 5:00 PM NPT,Scheduled
+31,2026-11-19,Loser of Qualifier 1,Winner of Eliminator,,,,Scheduled for 5:00 PM NPT,Scheduled
+32,2026-11-21,Winner of Qualifier 1,Winner of Qualifier 2,,,,Grand Finale - 5:00 PM NPT,Scheduled

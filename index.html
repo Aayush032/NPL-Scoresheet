@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPL Season 3 - Office Tracker</title>
+  <meta name="description" content="Nepal Premier League (NPL) Season 3 Office Tracker - Live results, points table, and member leaderboard.">
+  <meta name="theme-color" content="#0a0e17">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="container header-inner">
+      <div class="header-brand">
+        <div class="header-logo-badge" aria-hidden="true">🏏</div>
+        <div class="brand-text-wrap">
+          <div class="brand-title-row">
+            <h1 class="app-title" id="season-title">NPL Season 3 - Office Edition</h1>
+            <span class="office-pill" id="office-tag">Office Fantasy Hub</span>
+          </div>
+          <div class="header-meta">
+            <span class="meta-dot"></span>
+            <span id="last-updated-text">Connecting to sheet...</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-controls">
+        <button id="refresh-btn" class="btn" title="Refresh sheet data" aria-label="Refresh data">
+          <span class="refresh-spin" aria-hidden="true">🔄</span>
+          <span>Refresh</span>
+        </button>
+        <button id="theme-toggle-btn" class="btn btn-icon" title="Toggle dark/light theme" aria-label="Toggle theme">
+          <span id="theme-icon" aria-hidden="true">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sample Mode Banner (shown when USE_SAMPLE_DATA = true) -->
+  <aside id="sample-mode-banner" class="sample-banner" style="display: none;" aria-label="Sample mode alert">
+    <div class="container sample-banner-inner">
+      <div>
+        <span class="sample-badge">Sample Mode Active</span>
+        <span>Viewing bundled mock CSV data. To connect your live Google Sheet, edit <code>js/config.js</code>.</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content Layout -->
+  <main id="main-content" class="container main-content">
+
+    <!-- Section 1: Latest Match Day Results -->
+    <section class="dashboard-section" aria-labelledby="matches-heading">
+      <div class="section-header">
+        <div>
+          <h2 id="matches-heading" class="section-title">
+            <span>📅</span>
+            <span>Match Day Results</span>
+          </h2>
+          <p class="section-desc">Scores and outcomes for the selected match day.</p>
+        </div>
+
+        <nav class="date-controls" aria-label="Match date navigation">
+          <button id="prev-date-btn" class="date-nav-btn" title="Previous match day" aria-label="Previous match day">◀</button>
+          <select id="date-selector" class="date-dropdown" aria-label="Select match date">
+            <option value="">Loading dates...</option>
+          </select>
+          <button id="next-date-btn" class="date-nav-btn" title="Next match day" aria-label="Next match day">▶</button>
+        </nav>
+      </div>
+
+      <!-- Match cards injected here -->
+      <div id="matches-container" aria-live="polite"></div>
+    </section>
+
+    <!-- Section 2: Points Table -->
+    <section class="dashboard-section" aria-labelledby="standings-heading">
+      <div class="section-header">
+        <div>
+          <h2 id="standings-heading" class="section-title">
+            <span>🏆</span>
+            <span>Points Table</span>
+          </h2>
+          <p class="section-desc">Standings rendered exactly as entered in the Google Sheet (display-only).</p>
+        </div>
+      </div>
+
+      <!-- Standings table injected here -->
+      <div id="standings-table-container" aria-live="polite"></div>
+    </section>
+
+    <!-- Section 3: Owner Leaderboard -->
+    <section class="dashboard-section" aria-labelledby="leaderboard-heading">
+      <div class="section-header">
+        <div>
+          <h2 id="leaderboard-heading" class="section-title">
+            <span>🎖️</span>
+            <span>Member Leaderboard</span>
+          </h2>
+          <p class="section-desc">Office team standings based on assigned NPL franchises.</p>
+        </div>
+      </div>
+
+      <!-- Owner cards injected here -->
+      <div id="owner-leaderboard-container" aria-live="polite"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="container">
+      <p>NPL Season 3 Office Tracker • Pure static website hosted on GitHub Pages • Auto-refreshes every 5 mins</p>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript Bootstrap -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
+
