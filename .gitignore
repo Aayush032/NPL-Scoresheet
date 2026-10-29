@@ -21,8 +21,6 @@ desktop.ini
 .env.local
 .env.*.local
 *.local
-js/config.js
-js/config.local.js
 
 # Temporary Files, Logs & Scratches
 *.log
